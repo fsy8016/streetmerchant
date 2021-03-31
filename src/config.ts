@@ -421,16 +421,7 @@ const store = {
     '3090',
     'rx6800',
     'rx6800xt',
-    'rx6900xt',
-    'ryzen5600',
-    'ryzen5800',
-    'ryzen5900',
-    'ryzen5950',
-    'sf',
-    'sonyps5c',
-    'sonyps5de',
-    'xboxss',
-    'xboxsx',
+    'rx6900xt'
   ]),
   stores: envOrArray(process.env.STORES, ['amazon', 'bestbuy']).map(entry => {
     const [name, minPageSleep, maxPageSleep] = entry.match(/[^:]+/g) ?? [];
